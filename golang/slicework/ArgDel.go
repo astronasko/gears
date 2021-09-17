@@ -1,7 +1,7 @@
 // Remove given argument from given slice.
 func ArgDel(slice []int, arg int) []int {
     slice[arg] = slice[len(slice)-1]
-    return s[:len(slice)-1]
+    return slice[:len(slice)-1]
 }
 
 // Remove given argument form given slice, preserving order of the latter.

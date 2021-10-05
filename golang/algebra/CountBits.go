@@ -1,6 +1,5 @@
 // Count number of "ones" in the binary representation of a positive integer.
-func CountBits(input int) int {
-	ones := 0
+func CountBits(input int) ones int {
 	// Exploit that in binary arithmetic, division by two moves
 	// the entire principal part rightwards (to the decimal pt)
 	// So check how many times a number is odd (i.e. ends with 1)
@@ -12,5 +11,5 @@ func CountBits(input int) int {
 		input /= 2
 	}
 	
-	return ones
+	return
   }
